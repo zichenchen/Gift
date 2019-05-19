@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>我想你</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/stylesheet.css" rel="stylesheet">
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <style>
+        #ggt
+        {
+            margin: 0 auto;
+            border: solid 1px rgba(204,255,250,0.5);
+            width: 150px;
+            height: 40px;
+            box-shadow: inset 0 0 30px rgba(204,255,255,0.5);
+            transition:width 0.5s;
+        }
+        #ggt:hover {width:160px;}
+    </style>
+</head>
+<body>
+<div id="particles-js" ></div>
+      <div class="content text-md-center row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 col" style="position: absolute;top: 20px;left: 25px;width: 400px">
+            <p id="myword" style="text-align: left; color: #e6e6e6 ;"></p>
+        </div>
+          <div class="col-md-2"></div>
+      </div>
+<div class="div-inline" id="bggoo" style="position:absolute;top:650px;left:1300px">  <!-- 修改top后的数字和left后的数字，可控制这个收藏夹框所在的位置-->
+    <form id="bdfm"  name="bdfm" method="get" action="2.html">  <!-- 修改actione后双引号内链接，可以修改点击框时跳转到的页面 -->
+        <td><input class="kuang" style="background-color:transparent" id='ggt' type="submit" value="next" /></td>    <!-- 修改value后双引号内的值，即可修改框内显示 -->
+    </form>
+</div>
+</body>
+</html>
